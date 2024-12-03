@@ -2,12 +2,12 @@
 README and scripts
 ------------------
 
-The README and various scripts for inspection, preparation, and evaluation can be found in our git repository:
-https://github.com/mcordts/cityscapesScripts
+Dataset
+------------------
+You can donwload the dataset from "https://www.cityscapes-dataset.com/downloads/" the official page of CITYSCAPES. 
+Raw Images : leftImg8bit_trainvaltest.zip 
+Annotations for training and validation : gtFine_trainvaltest.zip 
 
-Contact
--------
-
-Marius Cordts, Mohamed Omran
-www.cityscapes-dataset.net
-mail@cityscapes-dataset.net
+Pretrained Model Weights
+------------------
+Weights for the model used (DeepLabV3Plus-ResNet101) for segmenatation can be downloaded from "https://github.com/VainF/DeepLabV3Plus-Pytorch" under the results section.
