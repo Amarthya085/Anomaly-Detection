@@ -1,0 +1,28 @@
+name: my_project_env
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - nflows
+  - matplotlib
+  - scikit-learn
+  - opencv
+  - pillow
+  - torch=2.5.1
+  - torchvision=0.20.1
+  - torchaudio=2.0.2  # Adjust the version to match compatibility with your CUDA version
+  - cudatoolkit=11.6  # Ensure compatibility with your system's CUDA version
+  - pytorch-cuda=11.6  # Specify the CUDA version
+  - tqdm  # For progress bars during training
+  - jupyterlab  # For easy experimentation and notebook execution
+  - pip:
+      - albumentations  # For data augmentation
+      - torchvision==0.20.1
+      - tensorboard  # For monitoring training
+      - deepdish  # For dataset preprocessing (optional)
+      - segmentation-models-pytorch  # If using segmentation models from third-party packages

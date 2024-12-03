@@ -1,0 +1,5 @@
+# Ignore specific folders
+data/cityscapes/gtfine
+data/cityscapes/leftImg8bit
+venv/
+checkpoints/best_deeplabv3plus_resnet101_cityscapes_os16.pth
